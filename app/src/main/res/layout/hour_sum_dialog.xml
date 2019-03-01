@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Hours:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Minutes:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewName1"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonClose"
+        android:text="Close" />
+    </TableLayout>
+
+
+</TableLayout>

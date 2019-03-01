@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityData">
+
+    <TextView
+        android:id="@+id/textViewMcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Math Students: No Data" />
+
+    <TextView
+        android:id="@+id/textViewEcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total English Students: No Data" />
+
+    <TextView
+        android:id="@+id/textView31day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total 30-day Attendance: No Data" />
+
+    <TextView
+        android:id="@+id/textView62day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prior 31-day Period: Not enough data" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Schedule Count" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewMsat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Sat 3PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMsat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMsat5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewMsun3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Sun 3PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMsun4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMsun5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewMmon4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Mon 4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMmon5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMmon6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="6PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewMtue4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Tue 4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMtue5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewMtue6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="6PM: 0"/>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Schedule Count" />
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewEsat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Sat 3PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEsat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEsat5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewEsun3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Sun 3PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEsun4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEsun5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewEmon4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Mon 4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEmon5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEmon6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="6PM: 0"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:id="@+id/textViewEtue4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:text="Tue 4PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEtue5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="5PM: 0"/>
+
+            <TextView
+                android:id="@+id/textViewEtue6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:text="6PM: 0"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

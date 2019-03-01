@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeClockActivity2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:id="@+id/buttonNewsub"
+                android:layout_weight="1"
+                android:text="Clock In" />
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:text="Clear" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+            <Button
+                android:id="@+id/buttonInvis"
+                android:visibility="invisible"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonCalc"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:text="Calculate" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listViewClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp" />
+
+</RelativeLayout>

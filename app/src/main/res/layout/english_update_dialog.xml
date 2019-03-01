@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Updating:"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/studentTextName"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="First Name:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Last Name:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextLname"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Level:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextLevel"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:hint="Level"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Test:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextTest"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:hint="Test"
+                android:inputType="text|number"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="HW:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextHW"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:hint="HW"
+                android:inputType="text|number"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:text="Scheduled Day:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/spinnerDay"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_green_dark"
+                android:entries="@array/weekDays"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:text="Scheduled Hour:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/spinnerHour"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_green_dark"
+                android:entries="@array/openHours"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Notes:"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextNotes"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:background="#FFFF00"
+                android:hint="Notes"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:gravity="top|left"
+                android:lines="7"
+                android:maxLines="10"
+                android:minLines="1"
+                android:scrollbars="none"
+                android:inputType="textMultiLine"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+        </TableRow>
+        <TableLayout>
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update" />
+        </TableLayout>
+
+        <TableRow android:layout_marginTop="8dp">
+            <Button
+                android:id="@+id/buttonClose"
+                android:layout_weight="1"
+                android:text="Close" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:text="Delete" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lunar.edumanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pingu_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.lunar.edumanager.MainActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.lunar.edumanager.Main2Activity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.UpdateStudentActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.MainENGActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.MainActivitySchedule1"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.EditAttendActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.AttendanceMenu"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.AttendMath"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.AttendEnglish"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.EditAttendActivity1"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.TimeClockActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.TimeClockActivity2"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.MainActivitySchedule2"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.MainActivityData"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="com.example.lunar.edumanager.DirectoryMenu"
+            android:screenOrientation="sensorPortrait"></activity>
+    </application>
+
+</manifest>
